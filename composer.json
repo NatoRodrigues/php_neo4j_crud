@@ -1,0 +1,35 @@
+{
+    "name": "renat/php_neo4j_crud",
+    "autoload": {
+
+        "psr-4": {
+            "Renat\\PhpMvcAjax\\": "src/"
+        },
+
+        "files": [
+            "app/functions/create.php",
+            "app/functions/delete.php",
+            "app/functions/list.php",
+            "app/functions/menu.php",
+            "app/functions/update.php"
+        ]
+        
+    },
+    "authors": [
+        {
+            "name": "NatoRodrigues",
+            "email": "renwise2.0@gmail.com"
+        }
+    ],
+    "require": {
+        "graphaware/neo4j-php-client": "^4.6",
+        "laudis/neo4j-php-client": "^3.0"
+        
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+   
+}
